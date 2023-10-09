@@ -1,4 +1,4 @@
-﻿package program.model;
+package program.model;
 
 public enum PetType {
     Cat,

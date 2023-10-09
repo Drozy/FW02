@@ -1,4 +1,4 @@
-﻿package program.controller;
+package program.controller;
 
 import program.exceptions.IncorrectDataException;
 

@@ -1,4 +1,4 @@
-﻿package program.services;
+package program.services;
 
 import program.model.Creator;
 import program.model.Pet;
@@ -189,7 +189,7 @@ public class PetRepository implements IRepository<Pet> {
 
     public static Connection getConnection() throws SQLException, IOException {
         Properties props = new Properties();
-        try (FileInputStream fis = new FileInputStream("src/Resources/db.properties")) {
+        try (FileInputStream fis = new FileInputStream("src/main/java/program/resources/db.properties")) {
             props.load(fis);
             String url = props.getProperty("url");
             String username = props.getProperty("username");

@@ -17,7 +17,7 @@ public class ConsoleMenu {
     public void start() {
 
         System.out.print("\033[H\033[J");
-        try (Scanner in = new Scanner(System.in, "ibm866"); Counter count = new Counter()) {
+        try (Scanner in = new Scanner(System.in); Counter count = new Counter()) {
 
             boolean flag = true;
             int id;
@@ -128,7 +128,9 @@ public class ConsoleMenu {
 
     private void menuTrainPet(int petId, Scanner in) {
         while (true) {
-            System.out.println("Введите новую команду, 0 для возврата в основное меню: ");
+            System.out.println("Введите новую команду " +
+                    "(сидеть, лежать, место, рядом, ко мне, лапу, голос, фас, замри), " +
+                    "\n0 для возврата в основное меню: ");
             String command = in.nextLine();
             if (command.equals("0"))
                 return;

@@ -1,4 +1,4 @@
-﻿package program.view;
+package program.view;
 
 import program.model.Pet;
 
@@ -10,7 +10,7 @@ public class ConsoleView implements View<Pet> {
     Scanner in;
 
     public ConsoleView() {
-        in = new Scanner(System.in, "ibm866");
+        in = new Scanner(System.in);
     }
 
     @Override

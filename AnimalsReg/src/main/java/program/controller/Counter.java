@@ -1,4 +1,4 @@
-﻿package program.controller;
+package program.controller;
 
 public class Counter implements AutoCloseable {
     static int sum = 0;
