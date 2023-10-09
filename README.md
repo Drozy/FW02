@@ -1,8 +1,8 @@
 # Итоговая контрольная работа по блоку специализация
 
-1-12. <a href="FW2.pdf" target="_blank">Отчет о выполнении пунктов</a>
-13. Создать [класс с Инкапсуляцией методов и наследованием по диаграмме](https://github.com/Drozy/FW02/tree/main/AnimalsReg/src/main/java/program/model).
-14. Написать [программу, имитирующую работу реестра домашних животных](https://github.com/Drozy/FW02/tree/main/AnimalsReg/src/main/java/program).
+1-12. <a href="FW2.pdf" target="_blank">Отчет о выполнении пунктов</a>  
+13. Создать [класс с Инкапсуляцией методов и наследованием по диаграмме](https://github.com/Drozy/FW02/tree/main/AnimalsReg/src/main/java/program/model).  
+14. Написать [программу, имитирующую работу реестра домашних животных](https://github.com/Drozy/FW02/tree/main/AnimalsReg/src/main/java/program).  
 В программе должен быть реализован следующий функционал:    
 - Завести новое животное    
 - определять животное в правильный класс    
